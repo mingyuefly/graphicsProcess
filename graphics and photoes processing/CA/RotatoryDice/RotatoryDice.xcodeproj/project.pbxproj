@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6BDB57205BE122000AE822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDB56205BE122000AE822 /* AppDelegate.m */; };
+		AA6BDB5A205BE122000AE822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDB59205BE122000AE822 /* ViewController.m */; };
+		AA6BDB5D205BE122000AE822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6BDB5B205BE122000AE822 /* Main.storyboard */; };
+		AA6BDB5F205BE122000AE822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6BDB5E205BE122000AE822 /* Assets.xcassets */; };
+		AA6BDB62205BE122000AE822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6BDB60205BE122000AE822 /* LaunchScreen.storyboard */; };
+		AA6BDB65205BE122000AE822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDB64205BE122000AE822 /* main.m */; };
+		AA6BDB6D205BE14C000AE822 /* DiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDB6C205BE14C000AE822 /* DiceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA6BDB52205BE122000AE822 /* RotatoryDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatoryDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BDB55205BE122000AE822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6BDB56205BE122000AE822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6BDB58205BE122000AE822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6BDB59205BE122000AE822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA6BDB5C205BE122000AE822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6BDB5E205BE122000AE822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6BDB61205BE122000AE822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6BDB63205BE122000AE822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6BDB64205BE122000AE822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6BDB6B205BE14C000AE822 /* DiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiceView.h; sourceTree = "<group>"; };
+		AA6BDB6C205BE14C000AE822 /* DiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6BDB4F205BE122000AE822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6BDB49205BE122000AE822 = {
+			isa = PBXGroup;
+			children = (
+				AA6BDB54205BE122000AE822 /* RotatoryDice */,
+				AA6BDB53205BE122000AE822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6BDB53205BE122000AE822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BDB52205BE122000AE822 /* RotatoryDice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6BDB54205BE122000AE822 /* RotatoryDice */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BDB55205BE122000AE822 /* AppDelegate.h */,
+				AA6BDB56205BE122000AE822 /* AppDelegate.m */,
+				AA6BDB58205BE122000AE822 /* ViewController.h */,
+				AA6BDB59205BE122000AE822 /* ViewController.m */,
+				AA6BDB6B205BE14C000AE822 /* DiceView.h */,
+				AA6BDB6C205BE14C000AE822 /* DiceView.m */,
+				AA6BDB5B205BE122000AE822 /* Main.storyboard */,
+				AA6BDB5E205BE122000AE822 /* Assets.xcassets */,
+				AA6BDB60205BE122000AE822 /* LaunchScreen.storyboard */,
+				AA6BDB63205BE122000AE822 /* Info.plist */,
+				AA6BDB64205BE122000AE822 /* main.m */,
+			);
+			path = RotatoryDice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6BDB51205BE122000AE822 /* RotatoryDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BDB68205BE122000AE822 /* Build configuration list for PBXNativeTarget "RotatoryDice" */;
+			buildPhases = (
+				AA6BDB4E205BE122000AE822 /* Sources */,
+				AA6BDB4F205BE122000AE822 /* Frameworks */,
+				AA6BDB50205BE122000AE822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatoryDice;
+			productName = RotatoryDice;
+			productReference = AA6BDB52205BE122000AE822 /* RotatoryDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6BDB4A205BE122000AE822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Gmingyue;
+				TargetAttributes = {
+					AA6BDB51205BE122000AE822 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA6BDB4D205BE122000AE822 /* Build configuration list for PBXProject "RotatoryDice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6BDB49205BE122000AE822;
+			productRefGroup = AA6BDB53205BE122000AE822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6BDB51205BE122000AE822 /* RotatoryDice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6BDB50205BE122000AE822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BDB62205BE122000AE822 /* LaunchScreen.storyboard in Resources */,
+				AA6BDB5F205BE122000AE822 /* Assets.xcassets in Resources */,
+				AA6BDB5D205BE122000AE822 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6BDB4E205BE122000AE822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BDB5A205BE122000AE822 /* ViewController.m in Sources */,
+				AA6BDB6D205BE14C000AE822 /* DiceView.m in Sources */,
+				AA6BDB65205BE122000AE822 /* main.m in Sources */,
+				AA6BDB57205BE122000AE822 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA6BDB5B205BE122000AE822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6BDB5C205BE122000AE822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6BDB60205BE122000AE822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6BDB61205BE122000AE822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6BDB66205BE122000AE822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA6BDB67205BE122000AE822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6BDB69205BE122000AE822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = RotatoryDice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingyuefly.com.RotatoryDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6BDB6A205BE122000AE822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = RotatoryDice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingyuefly.com.RotatoryDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6BDB4D205BE122000AE822 /* Build configuration list for PBXProject "RotatoryDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BDB66205BE122000AE822 /* Debug */,
+				AA6BDB67205BE122000AE822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BDB68205BE122000AE822 /* Build configuration list for PBXNativeTarget "RotatoryDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BDB69205BE122000AE822 /* Debug */,
+				AA6BDB6A205BE122000AE822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6BDB4A205BE122000AE822 /* Project object */;
+}
